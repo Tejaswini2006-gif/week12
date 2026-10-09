@@ -10,43 +10,63 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            background-color: #f4f4f4;
+            background-color: #F8F9FE;
+            color: #44445A;
             text-align: center;
         }
 
         header {
-            background-color: #007bff;
-            color: white;
-            padding: 20px;
+            background-color: #DCEBFA;
+            color: #425B76;
+            padding: 30px;
         }
 
         nav {
-            background-color: #333;
-            padding: 12px;
+            background-color: #EEE7FA;
+            padding: 15px;
         }
 
         nav a {
-            color: white;
+            color: #62527D;
             text-decoration: none;
             margin: 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #B58ACB;
         }
 
         main {
-            padding: 50px 20px;
+            padding: 35px 20px;
+        }
+
+        section {
+            background-color: #FFFFFF;
+            max-width: 600px;
+            margin: 25px auto;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px #DDE1EE;
         }
 
         button {
-            background-color: #007bff;
-            color: white;
+            background-color: #C9DDF5;
+            color: #354B66;
             padding: 12px 25px;
             border: none;
-            border-radius: 5px;
+            border-radius: 8px;
             cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #B8D0EF;
         }
 
         footer {
-            background-color: #333;
-            color: white;
+            background-color: #E5E9F5;
+            color: #555570;
             padding: 15px;
             margin-top: 30px;
         }
@@ -55,9 +75,9 @@
 
 <body>
 
-    <header>
+    <header id="home">
         <h1>My First Website</h1>
-        <p>Welcome to my website!</p>
+        <p>A little corner of the internet 🌸</p>
     </header>
 
     <nav>
@@ -66,16 +86,17 @@
         <a href="#contact">Contact</a>
     </nav>
 
-    <main id="home">
-        <h2>Welcome!</h2>
-        <p>This is a simple website created using HTML and CSS.</p>
-        <button onclick="alert('Hello! Welcome to my website!')">
+    <main>
+        <h2>Welcome! 💜</h2>
+        <p>Explore my simple and beautiful website.</p>
+
+        <button onclick="alert('Hello! Welcome to my website! 😊')">
             Click Me
         </button>
 
         <section id="about">
             <h2>About Us</h2>
-            <p>This section contains information about the website.</p>
+            <p>This is a simple website designed with soft pastel colors.</p>
         </section>
 
         <section id="contact">
